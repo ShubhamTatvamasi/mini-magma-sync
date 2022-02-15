@@ -18,3 +18,6 @@ rm ${MINI_MAGMA_ROOT}/docs/collection-setup.md ${MINI_MAGMA_ROOT}/docs/debug.md
 
 # Sync ansible.cfg
 rsync -a --delete ${MAGMA_GALAXY_ROOT}/ansible.cfg ${MINI_MAGMA_ROOT}
+
+# Sync deploy-orc8r.yml
+rsync -a --delete ${MAGMA_GALAXY_ROOT}/deploy-orc8r.yml ${MINI_MAGMA_ROOT}
